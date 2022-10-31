@@ -1,0 +1,14 @@
+# Blender 3.3.1 MTL File: 'DiorBlazer_Export.blend'
+# www.blender.org
+
+newmtl DiorBlazerMat
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd F:/wkspaces/repo_VYSICAL/02_Array/01_Blazer/Thick_Version/Export/Textures/Fake_Thick7_Checkers UV_BaseColor_sRGB.png
+map_Ns F:/wkspaces/repo_VYSICAL/02_Array/01_Blazer/Thick_Version/Export/Textures/Fake_Thick7_Checkers UV_OcclusionRoughnessMetallic_Raw.png
+map_refl F:/wkspaces/repo_VYSICAL/02_Array/01_Blazer/Thick_Version/Export/Textures/Fake_Thick7_Checkers UV_OcclusionRoughnessMetallic_Raw.png
+map_Bump -bm 1.000000 F:/wkspaces/repo_VYSICAL/02_Array/01_Blazer/Thick_Version/Export/Textures/Fake_Thick7_Checkers UV_Normal_Raw.png
