@@ -15,8 +15,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "../build/three.module.js",
-					"three/addons/": "./jsm/"
+					"three": "https://unpkg.com/three@0.146.0/build/three.module.js"
+					
 				}
 			}
 		</script>
@@ -25,9 +25,9 @@
 
 			import * as THREE from 'three';
 
-			import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
-
-			import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+			import { OBJLoader } from 'https://unpkg.com/three@0.146.0/examples/jsm/loaders/OBJLoader.js';
+			import { GLTFLoader } from 'https://unpkg.com/three@0.146.0/examples/jsm/loaders/GLTFLoader.js';
+			
 
 			let camera, scene, renderer,
 				light1, light2, light3, light4,
